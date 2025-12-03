@@ -6,7 +6,6 @@ cat > src/alms/core.py <<'EOF'
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import numpy as np
 from typing import Tuple, Optional
 
 class ALMSLayer(nn.Module):
@@ -149,3 +148,4 @@ class ALMSLayer(nn.Module):
         curvature_matrix = curvature.unsqueeze(0) + curvature.unsqueeze(1)
         
         return geodesic_dist + lambda_reg * curvature_matrix
+EOF
