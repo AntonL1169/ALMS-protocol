@@ -1,4 +1,3 @@
-cat > src/alms/__init__.py <<'EOF'
 # SPDX-License-Identifier: Apache-2.0
 """
 ALMS Protocol: Geometric Reasoning for AGI
