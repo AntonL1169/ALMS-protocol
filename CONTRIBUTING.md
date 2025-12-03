@@ -25,5 +25,5 @@ All contributions must respect the **Ethical Review Checklist**:
 
 ## Contact
 
-RFC questions: antonl69@mail.ru
+RFC questions: antonl110569@gmail.com
 EOF
