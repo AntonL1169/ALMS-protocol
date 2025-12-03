@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # ALMS Protocol: Unified Geometric Reasoning for AGI
 
 **Experimental RFC Draft**: A topological similarity field for multi-modal AI
