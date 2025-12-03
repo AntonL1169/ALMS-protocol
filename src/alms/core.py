@@ -147,4 +147,3 @@ class ALMSLayer(nn.Module):
         curvature_matrix = curvature.unsqueeze(0) + curvature.unsqueeze(1)
         
         return geodesic_dist + lambda_reg * curvature_matrix
-EOF
