@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
 authors = [
-    {name = "Primaginea", email = "author@alms-protocol.org"},
+    {name = "AntonL1169", email = "antonl69@mail.ru"},
 ]
 dependencies = [
     "torch>=2.0.0",
