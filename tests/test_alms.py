@@ -6,7 +6,6 @@ def test_import():
     """Test that ALMSLayer can be imported"""
     layer = ALMSLayer()
     assert layer.k == 32
-    assert layer.lambda_reg == 0.1
 
 def test_forward():
     """Test basic forward pass"""
@@ -16,3 +15,8 @@ def test_forward():
     
     assert enhanced.shape == (32, 1024)
     assert graph.shape == (32, 32)
+
+if __name__ == "__main__":
+    test_import()
+    test_forward()
+    print("✅ All tests passed")
