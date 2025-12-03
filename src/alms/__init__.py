@@ -10,4 +10,3 @@ from .core import ALMSLayer
 __version__ = "0.1.0"
 __author__ = "AntonL1169"
 __all__ = ["ALMSLayer"]
-EOF
