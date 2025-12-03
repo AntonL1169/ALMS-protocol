@@ -1,4 +1,3 @@
-cat > src/alms/core.py <<'EOF'
 # SPDX-License-Identifier: Apache-2.0
 # ALMS Core Implementation (RFC Draft)
 # Version: 0.1.0
