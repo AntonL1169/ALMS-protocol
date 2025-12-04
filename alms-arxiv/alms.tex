@@ -25,7 +25,7 @@ The layer is robust to any batch size $\geq 2$, compatible with differential pri
 \end{abstract}
 
 \section{Introduction}
-Euclidean attention scores fail when data lie on a low-dimensional manifold embedded in a high-dimensional space.  
+Euclidean attention scores fail when data lie on a low-dimensional manifold embedded in a high-dimensional space~\cite{vaswani2017attention}.  
 ALMS replaces the dot-product similarity with a \emph{geodesic} counterpart obtained by a two-step random-walk diffusion on a learned neighbourhood graph.  
 The procedure is fully differentiable, GPU-friendly, and adds only one hyper-parameter per head: the number of neighbours $k$.
 
